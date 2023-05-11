@@ -44,7 +44,7 @@ function movie(title, poster_path, overview) {
 }
 
 function favoriteHandler(req, res) {
-  str = 'Welcome to Favorite Page'
+  let str = 'Welcome to Favorite Page'
   res.status(200).send(str)
 }
 
