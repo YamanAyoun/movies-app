@@ -146,7 +146,7 @@ function popularHandler(req, res) {
 
 
 function getMoviesHandler(req, res){
-  const sql = `SELECT * FROM movie`;
+  const sql = `SELECT * FROM addMovie`;
   client.query(sql)
   .then(data=>{
       res.send(data.rows);
